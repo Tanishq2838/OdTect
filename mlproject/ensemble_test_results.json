@@ -1,0 +1,1050 @@
+{
+  "Normal": [
+    {
+      "file": "001.jpeg",
+      "true_class": "Normal",
+      "predicted_class": "Normal",
+      "confidence": 0.9957665205001831,
+      "correct": true,
+      "all_probs": {
+        "Normal": 0.9957665205001831,
+        "Oral_Cancer": 0.001397035326808691,
+        "benign_lesions": 0.001397035326808691,
+        "lichen_planus": 0.0014393697306513788
+      }
+    },
+    {
+      "file": "001_aug0.jpg",
+      "true_class": "Normal",
+      "predicted_class": "Normal",
+      "confidence": 0.9961709380149841,
+      "correct": true,
+      "all_probs": {
+        "Normal": 0.9961709380149841,
+        "Oral_Cancer": 0.0012635780079290272,
+        "benign_lesions": 0.0012635780079290272,
+        "lichen_planus": 0.0013018682505935432
+      }
+    },
+    {
+      "file": "001_aug1.jpg",
+      "true_class": "Normal",
+      "predicted_class": "Normal",
+      "confidence": 0.9946674108505249,
+      "correct": true,
+      "all_probs": {
+        "Normal": 0.9946674108505249,
+        "Oral_Cancer": 0.0017597479652613401,
+        "benign_lesions": 0.0017597479652613401,
+        "lichen_planus": 0.0018130736611783507
+      }
+    },
+    {
+      "file": "001_aug2.jpg",
+      "true_class": "Normal",
+      "predicted_class": "Normal",
+      "confidence": 0.9750417470932007,
+      "correct": true,
+      "all_probs": {
+        "Normal": 0.9750417470932007,
+        "Oral_Cancer": 0.008236232679337263,
+        "benign_lesions": 0.008236232679337263,
+        "lichen_planus": 0.008485815487802029
+      }
+    },
+    {
+      "file": "002.jpeg",
+      "true_class": "Normal",
+      "predicted_class": "Normal",
+      "confidence": 0.9973590970039368,
+      "correct": true,
+      "all_probs": {
+        "Normal": 0.9973590970039368,
+        "Oral_Cancer": 0.0008714833902195096,
+        "benign_lesions": 0.0008714833902195096,
+        "lichen_planus": 0.000897891977801919
+      }
+    },
+    {
+      "file": "002_aug0.jpg",
+      "true_class": "Normal",
+      "predicted_class": "Normal",
+      "confidence": 0.99854576587677,
+      "correct": true,
+      "all_probs": {
+        "Normal": 0.99854576587677,
+        "Oral_Cancer": 0.00047992349951528015,
+        "benign_lesions": 0.00047992349951528015,
+        "lichen_planus": 0.0004944666358642281
+      }
+    },
+    {
+      "file": "002_aug1.jpg",
+      "true_class": "Normal",
+      "predicted_class": "Normal",
+      "confidence": 0.9992107152938843,
+      "correct": true,
+      "all_probs": {
+        "Normal": 0.9992107152938843,
+        "Oral_Cancer": 0.00026046297338325533,
+        "benign_lesions": 0.00026046297338325533,
+        "lichen_planus": 0.00026835579075850546
+      }
+    },
+    {
+      "file": "002_aug2.jpg",
+      "true_class": "Normal",
+      "predicted_class": "Normal",
+      "confidence": 0.9969449639320374,
+      "correct": true,
+      "all_probs": {
+        "Normal": 0.9969449639320374,
+        "Oral_Cancer": 0.0010081555251963436,
+        "benign_lesions": 0.0010081555251963436,
+        "lichen_planus": 0.001038705692626536
+      }
+    },
+    {
+      "file": "003.jpeg",
+      "true_class": "Normal",
+      "predicted_class": "Normal",
+      "confidence": 0.9927651286125183,
+      "correct": true,
+      "all_probs": {
+        "Normal": 0.9927651286125183,
+        "Oral_Cancer": 0.002387524154037237,
+        "benign_lesions": 0.002387524154037237,
+        "lichen_planus": 0.0024598733708262447
+      }
+    },
+    {
+      "file": "003_aug0.jpg",
+      "true_class": "Normal",
+      "predicted_class": "Normal",
+      "confidence": 0.9975663423538208,
+      "correct": true,
+      "all_probs": {
+        "Normal": 0.9975663423538208,
+        "Oral_Cancer": 0.0008031237730756403,
+        "benign_lesions": 0.0008031237730756403,
+        "lichen_planus": 0.0008274608571082354
+      }
+    },
+    {
+      "file": "003_aug1.jpg",
+      "true_class": "Normal",
+      "predicted_class": "Normal",
+      "confidence": 0.9919819235801697,
+      "correct": true,
+      "all_probs": {
+        "Normal": 0.9919819235801697,
+        "Oral_Cancer": 0.002645947085693479,
+        "benign_lesions": 0.002645947085693479,
+        "lichen_planus": 0.002726127300411463
+      }
+    },
+    {
+      "file": "003_aug2.jpg",
+      "true_class": "Normal",
+      "predicted_class": "Normal",
+      "confidence": 0.9919819235801697,
+      "correct": true,
+      "all_probs": {
+        "Normal": 0.9919819235801697,
+        "Oral_Cancer": 0.002645947085693479,
+        "benign_lesions": 0.002645947085693479,
+        "lichen_planus": 0.002726127300411463
+      }
+    },
+    {
+      "file": "004.jpeg",
+      "true_class": "Normal",
+      "predicted_class": "Normal",
+      "confidence": 0.9910421371459961,
+      "correct": true,
+      "all_probs": {
+        "Normal": 0.9910421371459961,
+        "Oral_Cancer": 0.002956097507849336,
+        "benign_lesions": 0.002956097507849336,
+        "lichen_planus": 0.003045676220208407
+      }
+    },
+    {
+      "file": "004_aug0.jpg",
+      "true_class": "Normal",
+      "predicted_class": "Normal",
+      "confidence": 0.99764484167099,
+      "correct": true,
+      "all_probs": {
+        "Normal": 0.99764484167099,
+        "Oral_Cancer": 0.0007771992520429194,
+        "benign_lesions": 0.0007771992520429194,
+        "lichen_planus": 0.0008007507445290685
+      }
+    },
+    {
+      "file": "004_aug1.jpg",
+      "true_class": "Normal",
+      "predicted_class": "Normal",
+      "confidence": 0.983625054359436,
+      "correct": true,
+      "all_probs": {
+        "Normal": 0.983625054359436,
+        "Oral_Cancer": 0.005403741896152497,
+        "benign_lesions": 0.005403741896152497,
+        "lichen_planus": 0.00556749165058136
+      }
+    },
+    {
+      "file": "004_aug2.jpg",
+      "true_class": "Normal",
+      "predicted_class": "Normal",
+      "confidence": 0.9758176803588867,
+      "correct": true,
+      "all_probs": {
+        "Normal": 0.9758176803588867,
+        "Oral_Cancer": 0.007980178389698268,
+        "benign_lesions": 0.007980178389698268,
+        "lichen_planus": 0.008222001977264881
+      }
+    },
+    {
+      "file": "005.jpeg",
+      "true_class": "Normal",
+      "predicted_class": "Normal",
+      "confidence": 0.9988677501678467,
+      "correct": true,
+      "all_probs": {
+        "Normal": 0.9988677501678467,
+        "Oral_Cancer": 0.0003736475540790707,
+        "benign_lesions": 0.0003736475540790707,
+        "lichen_planus": 0.00038497020723298196
+      }
+    },
+    {
+      "file": "005_aug0.jpg",
+      "true_class": "Normal",
+      "predicted_class": "Normal",
+      "confidence": 0.9959444403648376,
+      "correct": true,
+      "all_probs": {
+        "Normal": 0.9959444403648376,
+        "Oral_Cancer": 0.0013383179297670723,
+        "benign_lesions": 0.0013383179297670723,
+        "lichen_planus": 0.0013788730185478927
+      }
+    },
+    {
+      "file": "005_aug1.jpg",
+      "true_class": "Normal",
+      "predicted_class": "Normal",
+      "confidence": 0.9984999895095825,
+      "correct": true,
+      "all_probs": {
+        "Normal": 0.9984999895095825,
+        "Oral_Cancer": 0.000495003922842443,
+        "benign_lesions": 0.000495003922842443,
+        "lichen_planus": 0.0005100040417164565
+      }
+    },
+    {
+      "file": "005_aug2.jpg",
+      "true_class": "Normal",
+      "predicted_class": "Normal",
+      "confidence": 0.9918118715286255,
+      "correct": true,
+      "all_probs": {
+        "Normal": 0.9918118715286255,
+        "Oral_Cancer": 0.0027020894642919304,
+        "benign_lesions": 0.0027020894642919304,
+        "lichen_planus": 0.0027839709632098675
+      }
+    }
+  ],
+  "Oral_Cancer": [
+    {
+      "file": "001.jpeg",
+      "true_class": "Oral_Cancer",
+      "predicted_class": "Oral_Cancer",
+      "confidence": 0.9876747898516046,
+      "correct": true,
+      "all_probs": {
+        "Normal": 0.01548394188284874,
+        "Oral_Cancer": 0.9723816576920097,
+        "benign_lesions": 0.010596604448257291,
+        "lichen_planus": 0.0015377624492715059
+      }
+    },
+    {
+      "file": "001_aug0.jpg",
+      "true_class": "Oral_Cancer",
+      "predicted_class": "Oral_Cancer",
+      "confidence": 0.9636628964836637,
+      "correct": true,
+      "all_probs": {
+        "Normal": 0.00810978189110756,
+        "Oral_Cancer": 0.9558477754471599,
+        "benign_lesions": 0.03488292754364973,
+        "lichen_planus": 0.0011594890410507736
+      }
+    },
+    {
+      "file": "001_aug1.jpg",
+      "true_class": "Oral_Cancer",
+      "predicted_class": "Oral_Cancer",
+      "confidence": 0.9832440859158599,
+      "correct": true,
+      "all_probs": {
+        "Normal": 0.019022485241293907,
+        "Oral_Cancer": 0.9645404185546335,
+        "benign_lesions": 0.014196225485467664,
+        "lichen_planus": 0.0022409508123464408
+      }
+    },
+    {
+      "file": "001_aug2.jpg",
+      "true_class": "Oral_Cancer",
+      "predicted_class": "Oral_Cancer",
+      "confidence": 0.9871275249937632,
+      "correct": true,
+      "all_probs": {
+        "Normal": 0.017739230766892433,
+        "Oral_Cancer": 0.9696166365155425,
+        "benign_lesions": 0.010100142826511489,
+        "lichen_planus": 0.0025439843031179418
+      }
+    },
+    {
+      "file": "002.jpeg",
+      "true_class": "Oral_Cancer",
+      "predicted_class": "Oral_Cancer",
+      "confidence": 0.9889907677299159,
+      "correct": true,
+      "all_probs": {
+        "Normal": 0.005518090911209583,
+        "Oral_Cancer": 0.9835334387371378,
+        "benign_lesions": 0.0012450300820237466,
+        "lichen_planus": 0.009703452376822342
+      }
+    },
+    {
+      "file": "002_aug0.jpg",
+      "true_class": "Oral_Cancer",
+      "predicted_class": "Oral_Cancer",
+      "confidence": 0.9754507790753038,
+      "correct": true,
+      "all_probs": {
+        "Normal": 0.009253052063286304,
+        "Oral_Cancer": 0.9664249085766674,
+        "benign_lesions": 0.0018392045127195713,
+        "lichen_planus": 0.022482861855681577
+      }
+    },
+    {
+      "file": "002_aug1.jpg",
+      "true_class": "Oral_Cancer",
+      "predicted_class": "Oral_Cancer",
+      "confidence": 0.9943924598739159,
+      "correct": true,
+      "all_probs": {
+        "Normal": 0.00298033794388175,
+        "Oral_Cancer": 0.9914287615957823,
+        "benign_lesions": 0.0029190546312326707,
+        "lichen_planus": 0.002671772720281182
+      }
+    },
+    {
+      "file": "002_aug2.jpg",
+      "true_class": "Oral_Cancer",
+      "predicted_class": "Oral_Cancer",
+      "confidence": 0.9909084603650556,
+      "correct": true,
+      "all_probs": {
+        "Normal": 0.006790307816118002,
+        "Oral_Cancer": 0.9841798550630694,
+        "benign_lesions": 0.0011374807050788525,
+        "lichen_planus": 0.007892324285104783
+      }
+    },
+    {
+      "file": "003.jpeg",
+      "true_class": "Oral_Cancer",
+      "predicted_class": "Oral_Cancer",
+      "confidence": 0.9640687524082637,
+      "correct": true,
+      "all_probs": {
+        "Normal": 0.02263825014233589,
+        "Oral_Cancer": 0.9422439120625279,
+        "benign_lesions": 0.03165688505760102,
+        "lichen_planus": 0.003460941561664413
+      }
+    },
+    {
+      "file": "003_aug0.jpg",
+      "true_class": "Oral_Cancer",
+      "predicted_class": "Oral_Cancer",
+      "confidence": 0.931092225176339,
+      "correct": true,
+      "all_probs": {
+        "Normal": 0.014659754931926727,
+        "Oral_Cancer": 0.9174425789016326,
+        "benign_lesions": 0.021150079874224913,
+        "lichen_planus": 0.04674751923699041
+      }
+    },
+    {
+      "file": "003_aug1.jpg",
+      "true_class": "Oral_Cancer",
+      "predicted_class": "Oral_Cancer",
+      "confidence": 0.9605039711203751,
+      "correct": true,
+      "all_probs": {
+        "Normal": 0.03419554606080055,
+        "Oral_Cancer": 0.9276590741630006,
+        "benign_lesions": 0.026432521335604933,
+        "lichen_planus": 0.011712921770529058
+      }
+    },
+    {
+      "file": "003_aug2.jpg",
+      "true_class": "Oral_Cancer",
+      "predicted_class": "Oral_Cancer",
+      "confidence": 0.9321375327186555,
+      "correct": true,
+      "all_probs": {
+        "Normal": 0.00721095222979784,
+        "Oral_Cancer": 0.9254159725640524,
+        "benign_lesions": 0.05190293961838138,
+        "lichen_planus": 0.015470177497284337
+      }
+    },
+    {
+      "file": "004.jpeg",
+      "true_class": "Oral_Cancer",
+      "predicted_class": "Oral_Cancer",
+      "confidence": 0.993874306523944,
+      "correct": true,
+      "all_probs": {
+        "Normal": 0.009867828339338303,
+        "Oral_Cancer": 0.9840669662034603,
+        "benign_lesions": 0.005952009419411346,
+        "lichen_planus": 0.00011323701598343012
+      }
+    },
+    {
+      "file": "004_aug0.jpg",
+      "true_class": "Oral_Cancer",
+      "predicted_class": "Oral_Cancer",
+      "confidence": 0.9789924968167238,
+      "correct": true,
+      "all_probs": {
+        "Normal": 0.02717248909175396,
+        "Oral_Cancer": 0.9523908174644218,
+        "benign_lesions": 0.020117924374559167,
+        "lichen_planus": 0.0003187523054587133
+      }
+    },
+    {
+      "file": "004_aug1.jpg",
+      "true_class": "Oral_Cancer",
+      "predicted_class": "Oral_Cancer",
+      "confidence": 0.9862977570019407,
+      "correct": true,
+      "all_probs": {
+        "Normal": 0.020678162574768066,
+        "Oral_Cancer": 0.965902872847598,
+        "benign_lesions": 0.013290192001163397,
+        "lichen_planus": 0.00012871297182588982
+      }
+    },
+    {
+      "file": "004_aug2.jpg",
+      "true_class": "Oral_Cancer",
+      "predicted_class": "Oral_Cancer",
+      "confidence": 0.9931303323359967,
+      "correct": true,
+      "all_probs": {
+        "Normal": 0.012835337780416012,
+        "Oral_Cancer": 0.9803831237391771,
+        "benign_lesions": 0.006610547216157067,
+        "lichen_planus": 0.00017094562944369824
+      }
+    },
+    {
+      "file": "005.jpeg",
+      "true_class": "Oral_Cancer",
+      "predicted_class": "Oral_Cancer",
+      "confidence": 0.9499993095381568,
+      "correct": true,
+      "all_probs": {
+        "Normal": 0.0007349755032919347,
+        "Oral_Cancer": 0.9493010744146467,
+        "benign_lesions": 0.04537685981906374,
+        "lichen_planus": 0.004587080891564133
+      }
+    },
+    {
+      "file": "005_aug0.jpg",
+      "true_class": "Oral_Cancer",
+      "predicted_class": "Oral_Cancer",
+      "confidence": 0.9519602115155366,
+      "correct": true,
+      "all_probs": {
+        "Normal": 0.0006635508616454899,
+        "Oral_Cancer": 0.9513285111765291,
+        "benign_lesions": 0.04369662699518851,
+        "lichen_planus": 0.004311283317997968
+      }
+    },
+    {
+      "file": "005_aug1.jpg",
+      "true_class": "Oral_Cancer",
+      "predicted_class": "Oral_Cancer",
+      "confidence": 0.9557417420854778,
+      "correct": true,
+      "all_probs": {
+        "Normal": 0.002953538205474615,
+        "Oral_Cancer": 0.9529189877582952,
+        "benign_lesions": 0.03785555656647984,
+        "lichen_planus": 0.006271985921959575
+      }
+    },
+    {
+      "file": "005_aug2.jpg",
+      "true_class": "Oral_Cancer",
+      "predicted_class": "Oral_Cancer",
+      "confidence": 0.9596850417001809,
+      "correct": true,
+      "all_probs": {
+        "Normal": 0.000358495773980394,
+        "Oral_Cancer": 0.959341030760536,
+        "benign_lesions": 0.034858344234080844,
+        "lichen_planus": 0.005442162671703988
+      }
+    }
+  ],
+  "benign_lesions": [
+    {
+      "file": "1.jpg",
+      "true_class": "benign_lesions",
+      "predicted_class": "benign_lesions",
+      "confidence": 0.5978772324591424,
+      "correct": true,
+      "all_probs": {
+        "Normal": 0.008444580249488354,
+        "Oral_Cancer": 0.3983083884617644,
+        "benign_lesions": 0.5928283940426188,
+        "lichen_planus": 0.00041861023777380345
+      }
+    },
+    {
+      "file": "10.jpg",
+      "true_class": "benign_lesions",
+      "predicted_class": "benign_lesions",
+      "confidence": 0.624890945884221,
+      "correct": true,
+      "all_probs": {
+        "Normal": 0.00012346659786999226,
+        "Oral_Cancer": 0.3701121575856655,
+        "benign_lesions": 0.62481377133751,
+        "lichen_planus": 0.0049505702528498405
+      }
+    },
+    {
+      "file": "101.jpg",
+      "true_class": "benign_lesions",
+      "predicted_class": "benign_lesions",
+      "confidence": 0.5980753597396685,
+      "correct": true,
+      "all_probs": {
+        "Normal": 0.01884164847433567,
+        "Oral_Cancer": 0.2913329888740471,
+        "benign_lesions": 0.58680664853232,
+        "lichen_planus": 0.10301873833368412
+      }
+    },
+    {
+      "file": "101_aug0.jpg",
+      "true_class": "benign_lesions",
+      "predicted_class": "benign_lesions",
+      "confidence": 0.6258455851553446,
+      "correct": true,
+      "all_probs": {
+        "Normal": 0.01713644154369831,
+        "Oral_Cancer": 0.3377794017588379,
+        "benign_lesions": 0.6151208480131545,
+        "lichen_planus": 0.029963355250438025
+      }
+    },
+    {
+      "file": "101_aug1.jpg",
+      "true_class": "benign_lesions",
+      "predicted_class": "benign_lesions",
+      "confidence": 0.6026512978098122,
+      "correct": true,
+      "all_probs": {
+        "Normal": 0.023097537457942963,
+        "Oral_Cancer": 0.3300659495710485,
+        "benign_lesions": 0.5887315503548783,
+        "lichen_planus": 0.05810498496787192
+      }
+    },
+    {
+      "file": "101_aug2.jpg",
+      "true_class": "benign_lesions",
+      "predicted_class": "benign_lesions",
+      "confidence": 0.623952793072799,
+      "correct": true,
+      "all_probs": {
+        "Normal": 0.018089568242430687,
+        "Oral_Cancer": 0.346937268333404,
+        "benign_lesions": 0.612665741333819,
+        "lichen_planus": 0.02230739787595939
+      }
+    },
+    {
+      "file": "102.jpg",
+      "true_class": "benign_lesions",
+      "predicted_class": "Normal",
+      "confidence": 0.7866041660308838,
+      "correct": false,
+      "all_probs": {
+        "Normal": 0.7866041660308838,
+        "Oral_Cancer": 0.07042061045765877,
+        "benign_lesions": 0.07042061045765877,
+        "lichen_planus": 0.0725545683503151
+      }
+    },
+    {
+      "file": "102_aug0.jpg",
+      "true_class": "benign_lesions",
+      "predicted_class": "Normal",
+      "confidence": 0.6152870059013367,
+      "correct": false,
+      "all_probs": {
+        "Normal": 0.6152870059013367,
+        "Oral_Cancer": 0.1269552782177925,
+        "benign_lesions": 0.1269552782177925,
+        "lichen_planus": 0.13080240786075592
+      }
+    },
+    {
+      "file": "102_aug1.jpg",
+      "true_class": "benign_lesions",
+      "predicted_class": "Normal",
+      "confidence": 0.6467097401618958,
+      "correct": false,
+      "all_probs": {
+        "Normal": 0.6467097401618958,
+        "Oral_Cancer": 0.11658577591180802,
+        "benign_lesions": 0.11658577591180802,
+        "lichen_planus": 0.12011867821216585
+      }
+    },
+    {
+      "file": "102_aug2.jpg",
+      "true_class": "benign_lesions",
+      "predicted_class": "Normal",
+      "confidence": 0.6591922640800476,
+      "correct": false,
+      "all_probs": {
+        "Normal": 0.6591922640800476,
+        "Oral_Cancer": 0.11246653318405152,
+        "benign_lesions": 0.11246653318405152,
+        "lichen_planus": 0.1158746099472046
+      }
+    },
+    {
+      "file": "104.jpg",
+      "true_class": "benign_lesions",
+      "predicted_class": "benign_lesions",
+      "confidence": 0.6255512984422176,
+      "correct": true,
+      "all_probs": {
+        "Normal": 0.004627536982297897,
+        "Oral_Cancer": 0.36451421881085894,
+        "benign_lesions": 0.6226565436654323,
+        "lichen_planus": 0.00820171171728168
+      }
+    },
+    {
+      "file": "104_aug0.jpg",
+      "true_class": "benign_lesions",
+      "predicted_class": "benign_lesions",
+      "confidence": 0.6202850883644065,
+      "correct": true,
+      "all_probs": {
+        "Normal": 0.0019395382842049003,
+        "Oral_Cancer": 0.3675048135384941,
+        "benign_lesions": 0.6190819866662186,
+        "lichen_planus": 0.011473605049651312
+      }
+    },
+    {
+      "file": "104_aug1.jpg",
+      "true_class": "benign_lesions",
+      "predicted_class": "benign_lesions",
+      "confidence": 0.6360884770849983,
+      "correct": true,
+      "all_probs": {
+        "Normal": 0.015246660448610783,
+        "Oral_Cancer": 0.3561751636141001,
+        "benign_lesions": 0.6263902716089268,
+        "lichen_planus": 0.0021879350620073214
+      }
+    },
+    {
+      "file": "104_aug2.jpg",
+      "true_class": "benign_lesions",
+      "predicted_class": "benign_lesions",
+      "confidence": 0.6179174752128133,
+      "correct": true,
+      "all_probs": {
+        "Normal": 0.0020872389432042837,
+        "Oral_Cancer": 0.37018578974063315,
+        "benign_lesions": 0.6166276991221629,
+        "lichen_planus": 0.011099216081814595
+      }
+    },
+    {
+      "file": "105.jpg",
+      "true_class": "benign_lesions",
+      "predicted_class": "benign_lesions",
+      "confidence": 0.636685665008904,
+      "correct": true,
+      "all_probs": {
+        "Normal": 0.007625700905919075,
+        "Oral_Cancer": 0.3549657988038292,
+        "benign_lesions": 0.6318304537929564,
+        "lichen_planus": 0.005577988755295566
+      }
+    },
+    {
+      "file": "105_aug0.jpg",
+      "true_class": "benign_lesions",
+      "predicted_class": "benign_lesions",
+      "confidence": 0.6376623913029322,
+      "correct": true,
+      "all_probs": {
+        "Normal": 0.00887090153992176,
+        "Oral_Cancer": 0.3533680939363484,
+        "benign_lesions": 0.6320057141940713,
+        "lichen_planus": 0.005755232587658967
+      }
+    },
+    {
+      "file": "105_aug1.jpg",
+      "true_class": "benign_lesions",
+      "predicted_class": "benign_lesions",
+      "confidence": 0.6300539338690161,
+      "correct": true,
+      "all_probs": {
+        "Normal": 0.01867569610476494,
+        "Oral_Cancer": 0.36247823532305873,
+        "benign_lesions": 0.6182872075577271,
+        "lichen_planus": 0.0005588125856752868
+      }
+    },
+    {
+      "file": "105_aug2.jpg",
+      "true_class": "benign_lesions",
+      "predicted_class": "benign_lesions",
+      "confidence": 0.6128113085422324,
+      "correct": true,
+      "all_probs": {
+        "Normal": 0.03845009207725525,
+        "Oral_Cancer": 0.3694196656367441,
+        "benign_lesions": 0.5892486755660005,
+        "lichen_planus": 0.002881596522322625
+      }
+    },
+    {
+      "file": "106.jpg",
+      "true_class": "benign_lesions",
+      "predicted_class": "benign_lesions",
+      "confidence": 0.62066349641082,
+      "correct": true,
+      "all_probs": {
+        "Normal": 0.0026346968952566385,
+        "Oral_Cancer": 0.3782118518114291,
+        "benign_lesions": 0.6190282317440333,
+        "lichen_planus": 0.00012521233153105685
+      }
+    },
+    {
+      "file": "106_aug0.jpg",
+      "true_class": "benign_lesions",
+      "predicted_class": "benign_lesions",
+      "confidence": 0.6255829445981929,
+      "correct": true,
+      "all_probs": {
+        "Normal": 0.0015754738124087453,
+        "Oral_Cancer": 0.3737890389504003,
+        "benign_lesions": 0.6245973574547944,
+        "lichen_planus": 3.813362410232763e-05
+      }
+    }
+  ],
+  "lichen_planus": [
+    {
+      "file": "08LichenPlanusTongue.jpg",
+      "true_class": "lichen_planus",
+      "predicted_class": "lichen_planus",
+      "confidence": 0.6223800376414628,
+      "correct": true,
+      "all_probs": {
+        "Normal": 0.13145838677883148,
+        "Oral_Cancer": 0.28696584872697206,
+        "benign_lesions": 0.04101281944535654,
+        "lichen_planus": 0.5405629897523234
+      }
+    },
+    {
+      "file": "08lichenPlanusTongue112205.jpg",
+      "true_class": "lichen_planus",
+      "predicted_class": "lichen_planus",
+      "confidence": 0.628798549780656,
+      "correct": true,
+      "all_probs": {
+        "Normal": 0.0028081333730369806,
+        "Oral_Cancer": 0.32235590103214884,
+        "benign_lesions": 0.047803158487559234,
+        "lichen_planus": 0.627032786850989
+      }
+    },
+    {
+      "file": "08lichenPlanusTongue1122051.jpg",
+      "true_class": "lichen_planus",
+      "predicted_class": "lichen_planus",
+      "confidence": 0.6381848484390815,
+      "correct": true,
+      "all_probs": {
+        "Normal": 0.027626050636172295,
+        "Oral_Cancer": 0.3387700496175655,
+        "benign_lesions": 0.013049582962929343,
+        "lichen_planus": 0.6205543298218489
+      }
+    },
+    {
+      "file": "08lichenPlanusTongue1122051_aug0.jpg",
+      "true_class": "lichen_planus",
+      "predicted_class": "lichen_planus",
+      "confidence": 0.636881676690086,
+      "correct": true,
+      "all_probs": {
+        "Normal": 0.03574630245566368,
+        "Oral_Cancer": 0.3339727032124611,
+        "benign_lesions": 0.016165492154271266,
+        "lichen_planus": 0.6141155282546359
+      }
+    },
+    {
+      "file": "08lichenPlanusTongue1122051_aug1.jpg",
+      "true_class": "lichen_planus",
+      "predicted_class": "lichen_planus",
+      "confidence": 0.6378778106105846,
+      "correct": true,
+      "all_probs": {
+        "Normal": 0.0034077370073646307,
+        "Oral_Cancer": 0.34541006830208754,
+        "benign_lesions": 0.015478089652436808,
+        "lichen_planus": 0.6357040656897325
+      }
+    },
+    {
+      "file": "08lichenPlanusTongue1122051_aug2.jpg",
+      "true_class": "lichen_planus",
+      "predicted_class": "lichen_planus",
+      "confidence": 0.5954768172175873,
+      "correct": true,
+      "all_probs": {
+        "Normal": 0.025052916258573532,
+        "Oral_Cancer": 0.23334528531032905,
+        "benign_lesions": 0.1610433924586224,
+        "lichen_planus": 0.580558357543701
+      }
+    },
+    {
+      "file": "08lichenPlanusTongue1122052.jpg",
+      "true_class": "lichen_planus",
+      "predicted_class": "lichen_planus",
+      "confidence": 0.6397143798689595,
+      "correct": true,
+      "all_probs": {
+        "Normal": 0.00025965337408706546,
+        "Oral_Cancer": 0.3492912324460575,
+        "benign_lesions": 0.010900822432743882,
+        "lichen_planus": 0.6395482476839123
+      }
+    },
+    {
+      "file": "08lichenPlanusTongue1122052_aug0.jpg",
+      "true_class": "lichen_planus",
+      "predicted_class": "lichen_planus",
+      "confidence": 0.6425984895159977,
+      "correct": true,
+      "all_probs": {
+        "Normal": 0.00024512677919119596,
+        "Oral_Cancer": 0.35641403782760783,
+        "benign_lesions": 0.000899854280817715,
+        "lichen_planus": 0.6424409539876134
+      }
+    },
+    {
+      "file": "08lichenPlanusTongue1122052_aug1.jpg",
+      "true_class": "lichen_planus",
+      "predicted_class": "lichen_planus",
+      "confidence": 0.6426163148634961,
+      "correct": true,
+      "all_probs": {
+        "Normal": 0.0005832334863953292,
+        "Oral_Cancer": 0.3564197407853082,
+        "benign_lesions": 0.0007555282483466629,
+        "lichen_planus": 0.6422415591218626
+      }
+    },
+    {
+      "file": "08lichenPlanusTongue1122052_aug2.jpg",
+      "true_class": "lichen_planus",
+      "predicted_class": "lichen_planus",
+      "confidence": 0.6422429210017847,
+      "correct": true,
+      "all_probs": {
+        "Normal": 0.00025750091299414635,
+        "Oral_Cancer": 0.3557787302566392,
+        "benign_lesions": 0.0018862078083990666,
+        "lichen_planus": 0.6420775102648872
+      }
+    },
+    {
+      "file": "08lichenPlanusTongue112205_aug0.jpg",
+      "true_class": "lichen_planus",
+      "predicted_class": "lichen_planus",
+      "confidence": 0.6355553575145083,
+      "correct": true,
+      "all_probs": {
+        "Normal": 0.0019724746234714985,
+        "Oral_Cancer": 0.33838931497182334,
+        "benign_lesions": 0.025336461728440614,
+        "lichen_planus": 0.6343017267901838
+      }
+    },
+    {
+      "file": "08lichenPlanusTongue112205_aug1.jpg",
+      "true_class": "lichen_planus",
+      "predicted_class": "lichen_planus",
+      "confidence": 0.6216948696589868,
+      "correct": true,
+      "all_probs": {
+        "Normal": 0.005418512970209122,
+        "Oral_Cancer": 0.30432807297824177,
+        "benign_lesions": 0.07192721879098984,
+        "lichen_planus": 0.6183262287881719
+      }
+    },
+    {
+      "file": "08lichenPlanusTongue112205_aug2.jpg",
+      "true_class": "lichen_planus",
+      "predicted_class": "lichen_planus",
+      "confidence": 0.6255066187541686,
+      "correct": true,
+      "all_probs": {
+        "Normal": 0.003666456090286374,
+        "Oral_Cancer": 0.31481816585262484,
+        "benign_lesions": 0.058302127876543756,
+        "lichen_planus": 0.6232131861521181
+      }
+    },
+    {
+      "file": "08LichenPlanusTongue_aug0.jpg",
+      "true_class": "lichen_planus",
+      "predicted_class": "lichen_planus",
+      "confidence": 0.6126167820161624,
+      "correct": true,
+      "all_probs": {
+        "Normal": 0.10791376978158951,
+        "Oral_Cancer": 0.2529771584687082,
+        "benign_lesions": 0.09260206745368037,
+        "lichen_planus": 0.5465069819442799
+      }
+    },
+    {
+      "file": "08LichenPlanusTongue_aug1.jpg",
+      "true_class": "lichen_planus",
+      "predicted_class": "lichen_planus",
+      "confidence": 0.615838706839671,
+      "correct": true,
+      "all_probs": {
+        "Normal": 0.1506854146718979,
+        "Oral_Cancer": 0.25622796524077945,
+        "benign_lesions": 0.07004581843434345,
+        "lichen_planus": 0.523040786751818
+      }
+    },
+    {
+      "file": "08LichenPlanusTongue_aug2.jpg",
+      "true_class": "lichen_planus",
+      "predicted_class": "lichen_planus",
+      "confidence": 0.6195409540083501,
+      "correct": true,
+      "all_probs": {
+        "Normal": 0.038490504026412964,
+        "Oral_Cancer": 0.2896013690801046,
+        "benign_lesions": 0.07621362780848165,
+        "lichen_planus": 0.5956945288873232
+      }
+    },
+    {
+      "file": "lichen-planus-161.jpg",
+      "true_class": "lichen_planus",
+      "predicted_class": "lichen_planus",
+      "confidence": 0.6115710890021903,
+      "correct": true,
+      "all_probs": {
+        "Normal": 0.0011218410218134522,
+        "Oral_Cancer": 0.27920665218224977,
+        "benign_lesions": 0.10878651187554982,
+        "lichen_planus": 0.6108850169228828
+      }
+    },
+    {
+      "file": "lichen-planus-161_aug0.jpg",
+      "true_class": "lichen_planus",
+      "predicted_class": "lichen_planus",
+      "confidence": 0.6096208422561986,
+      "correct": true,
+      "all_probs": {
+        "Normal": 0.0008509985054843128,
+        "Oral_Cancer": 0.27480204483682186,
+        "benign_lesions": 0.11524488653436407,
+        "lichen_planus": 0.609102033510711
+      }
+    },
+    {
+      "file": "lichen-planus-161_aug1.jpg",
+      "true_class": "lichen_planus",
+      "predicted_class": "lichen_planus",
+      "confidence": 0.569811614560208,
+      "correct": true,
+      "all_probs": {
+        "Normal": 0.0007452050922438502,
+        "Oral_Cancer": 0.17441731979450592,
+        "benign_lesions": 0.2554504733978504,
+        "lichen_planus": 0.5693869699340169
+      }
+    },
+    {
+      "file": "lichen-planus-161_aug2.jpg",
+      "true_class": "lichen_planus",
+      "predicted_class": "lichen_planus",
+      "confidence": 0.6075228907710392,
+      "correct": true,
+      "all_probs": {
+        "Normal": 0.0004583762784022838,
+        "Oral_Cancer": 0.2687699516167859,
+        "benign_lesions": 0.12352726191494069,
+        "lichen_planus": 0.6072444267499507
+      }
+    }
+  ]
+}

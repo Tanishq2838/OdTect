@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* o_Dtect Premium Medical Design System */
+
+@layer base {
+  :root {
+    --background: 210 30% 98%;
+    /* Cool white */
+    --foreground: 222 47% 11%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 222 47% 11%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222 47% 11%;
+
+    /* Premium Tech Blue - Primary */
+    --primary: 221 83% 53%;
+    --primary-foreground: 210 40% 98%;
+
+    /* Secondary - Soft Blue/Gray */
+    --secondary: 214 32% 91%;
+    --secondary-foreground: 222 47% 11%;
+
+    /* Muted */
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+
+    /* Accent */
+    --accent: 180 70% 35%;
+    --accent-foreground: 210 40% 98%;
+
+    /* Destructive */
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    /* Warning */
+    --warning: 38 92% 50%;
+    --warning-foreground: 0 0% 100%;
+
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 221 83% 53%;
+
+    --radius: 1rem;
+    /* More rounded for modern look */
+
+    /* Special Status Colors */
+    --status-success: 142 70% 45%;
+    --status-warning: 38 92% 50%;
+    --status-error: 0 84% 60%;
+
+    /* Decoration */
+    --glass-border: rgba(255, 255, 255, 0.5);
+    --glass-bg: rgba(255, 255, 255, 0.7);
+  }
+
+  .dark {
+    --background: 222 47% 11%;
+    --foreground: 210 40% 98%;
+
+    --card: 222 47% 11%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 222 47% 11%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 217 91% 60%;
+    --primary-foreground: 222 47% 11%;
+
+    --secondary: 217.2 32.6% 17.5%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+
+    --accent: 180 70% 45%;
+    --accent-foreground: 210 40% 98%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --warning: 38 92% 50%;
+    --warning-foreground: 0 0% 100%;
+
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 212.7 26.8% 83.9%;
+
+    --status-success: 142 70% 50%;
+    --status-warning: 38 92% 50%;
+    --status-error: 0 84% 60%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html {
+    @apply scroll-smooth;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans antialiased selection:bg-primary/20 selection:text-primary;
+    background: radial-gradient(at 0% 0%, hsla(253, 16%, 7%, 1) 0, transparent 50%),
+      radial-gradient(at 50% 0%, hsla(225, 39%, 30%, 1) 0, transparent 50%),
+      radial-gradient(at 100% 0%, hsla(339, 49%, 30%, 1) 0, transparent 50%);
+    background-color: #f8fafc;
+    /* Fallback light */
+    overflow-x: hidden;
+  }
+
+  /* Aurora Background Animation */
+  .aurora-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    background:
+      radial-gradient(circle at 50% 50%, rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 0) 50%),
+      radial-gradient(at 0% 0%, hsla(217, 91%, 95%, 1) 0px, transparent 50%),
+      radial-gradient(at 50% 0%, hsla(180, 70%, 96%, 1) 0px, transparent 50%),
+      radial-gradient(at 100% 0%, hsla(217, 91%, 95%, 1) 0px, transparent 50%);
+    opacity: 0.8;
+    pointer-events: none;
+  }
+
+  .dark .aurora-bg {
+    background:
+      radial-gradient(at 0% 0%, hsla(220, 50%, 10%, 1) 0px, transparent 50%),
+      radial-gradient(at 50% 0%, hsla(222, 50%, 15%, 1) 0px, transparent 50%),
+      radial-gradient(at 100% 0%, hsla(220, 50%, 10%, 1) 0px, transparent 50%);
+  }
+
+  /* Animated Mesh Gradient blobs */
+  .blob {
+    position: fixed;
+    filter: blur(80px);
+    z-index: -1;
+    opacity: 0.6;
+    animation: blob-bounce 10s infinite ease-in-out;
+  }
+
+  .blob:nth-child(1) {
+    top: -10%;
+    left: -10%;
+    width: 50vw;
+    height: 50vw;
+    background: hsla(217, 91%, 85%, 0.6);
+    animation-delay: 0s;
+  }
+
+  .blob:nth-child(2) {
+    bottom: -10%;
+    right: -10%;
+    width: 50vw;
+    height: 50vw;
+    background: hsla(180, 70%, 90%, 0.6);
+    animation-delay: 2s;
+  }
+
+  .blob:nth-child(3) {
+    top: 40%;
+    left: 40%;
+    width: 40vw;
+    height: 40vw;
+    background: hsla(250, 60%, 92%, 0.5);
+    animation-delay: 4s;
+  }
+
+  @keyframes blob-bounce {
+
+    0%,
+    100% {
+      transform: translate(0, 0) scale(1);
+    }
+
+    33% {
+      transform: translate(30px, -50px) scale(1.1);
+    }
+
+    66% {
+      transform: translate(-20px, 20px) scale(0.9);
+    }
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-heading tracking-tight;
+  }
+}
+
+@layer utilities {
+  .glass {
+    @apply bg-white/60 backdrop-blur-xl border border-white/40 shadow-sm supports-[backdrop-filter]:bg-white/40;
+  }
+
+  /* Premium Glass Card - Gem-like quality */
+  .glass-card {
+    @apply bg-white/70 backdrop-blur-2xl border border-white/60 shadow-lg shadow-blue-900/5 hover:shadow-xl hover:shadow-blue-900/10 transition-all duration-500 rounded-3xl relative overflow-hidden;
+    /* Top highlight for depth */
+    box-shadow:
+      0 4px 6px -1px rgba(0, 0, 0, 0.02),
+      0 2px 4px -1px rgba(0, 0, 0, 0.02),
+      inset 0 1px 0 rgba(255, 255, 255, 0.8);
+  }
+
+  .glass-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.8), transparent);
+    opacity: 0.5;
+  }
+
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .text-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-br from-gray-900 via-blue-800 to-gray-900;
+  }
+
+  .text-gradient-primary {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-blue-600 via-indigo-500 to-blue-600 animate-shimmer bg-[length:200%_auto];
+  }
+}

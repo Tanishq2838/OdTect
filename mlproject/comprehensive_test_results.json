@@ -1,0 +1,406 @@
+{
+  "normal_abnormal": {
+    "task": "normal_abnormal",
+    "overall_accuracy": 99.58202716823406,
+    "per_class_accuracy": {
+      "benign_lesions": 97.22222222222221,
+      "Normal": 99.70238095238095,
+      "Oral_Cancer": 100.0,
+      "lichen_planus": 99.50248756218906
+    },
+    "confusion_matrix": [
+      [
+        335,
+        1
+      ],
+      [
+        3,
+        618
+      ]
+    ],
+    "class_names": [
+      "Normal",
+      "Abnormal"
+    ],
+    "sample_predictions": [
+      {
+        "path": "datasets\\benign_lesions\\123.jpg",
+        "original_class": "benign_lesions",
+        "true_label": "Abnormal",
+        "predicted_label": "Abnormal",
+        "confidence": 0.9529995322227478,
+        "all_probs": {
+          "Normal": 0.04700041189789772,
+          "Abnormal": 0.9529995322227478
+        }
+      },
+      {
+        "path": "datasets\\Normal\\126.jpeg",
+        "original_class": "Normal",
+        "true_label": "Normal",
+        "predicted_label": "Normal",
+        "confidence": 0.9998206496238708,
+        "all_probs": {
+          "Normal": 0.9998206496238708,
+          "Abnormal": 0.0001793958799680695
+        }
+      },
+      {
+        "path": "datasets\\benign_lesions\\117.jpg",
+        "original_class": "benign_lesions",
+        "true_label": "Abnormal",
+        "predicted_label": "Abnormal",
+        "confidence": 0.9907365441322327,
+        "all_probs": {
+          "Normal": 0.009263434447348118,
+          "Abnormal": 0.9907365441322327
+        }
+      },
+      {
+        "path": "datasets\\Oral_Cancer\\350_aug1.jpg",
+        "original_class": "Oral_Cancer",
+        "true_label": "Abnormal",
+        "predicted_label": "Abnormal",
+        "confidence": 0.9929976463317871,
+        "all_probs": {
+          "Normal": 0.0070023732259869576,
+          "Abnormal": 0.9929976463317871
+        }
+      },
+      {
+        "path": "datasets\\Oral_Cancer\\photo_2025-01-26_17-27-23.jpg",
+        "original_class": "Oral_Cancer",
+        "true_label": "Abnormal",
+        "predicted_label": "Abnormal",
+        "confidence": 0.9961220622062683,
+        "all_probs": {
+          "Normal": 0.0038779505994170904,
+          "Abnormal": 0.9961220622062683
+        }
+      },
+      {
+        "path": "datasets\\lichen_planus\\t-Lichen-Planus-Hypertrophic-7_aug1.jpg",
+        "original_class": "lichen_planus",
+        "true_label": "Abnormal",
+        "predicted_label": "Abnormal",
+        "confidence": 0.9750843644142151,
+        "all_probs": {
+          "Normal": 0.024915659800171852,
+          "Abnormal": 0.9750843644142151
+        }
+      },
+      {
+        "path": "datasets\\Oral_Cancer\\057_aug1.jpg",
+        "original_class": "Oral_Cancer",
+        "true_label": "Abnormal",
+        "predicted_label": "Abnormal",
+        "confidence": 0.9897735714912415,
+        "all_probs": {
+          "Normal": 0.010226444341242313,
+          "Abnormal": 0.9897735714912415
+        }
+      },
+      {
+        "path": "datasets\\Oral_Cancer\\56.jpg",
+        "original_class": "Oral_Cancer",
+        "true_label": "Abnormal",
+        "predicted_label": "Abnormal",
+        "confidence": 0.99996018409729,
+        "all_probs": {
+          "Normal": 3.982591806561686e-05,
+          "Abnormal": 0.99996018409729
+        }
+      },
+      {
+        "path": "datasets\\Normal\\photo_2025-01-26_17-21-18_aug0.jpg",
+        "original_class": "Normal",
+        "true_label": "Normal",
+        "predicted_label": "Normal",
+        "confidence": 0.9859752058982849,
+        "all_probs": {
+          "Normal": 0.9859752058982849,
+          "Abnormal": 0.014024849981069565
+        }
+      },
+      {
+        "path": "datasets\\Oral_Cancer\\photo_2025-01-26_17-29-37_aug0.jpg",
+        "original_class": "Oral_Cancer",
+        "true_label": "Abnormal",
+        "predicted_label": "Abnormal",
+        "confidence": 0.9850452542304993,
+        "all_probs": {
+          "Normal": 0.014954740181565285,
+          "Abnormal": 0.9850452542304993
+        }
+      }
+    ]
+  },
+  "precancer_cancer": {
+    "task": "precancer_cancer",
+    "overall_accuracy": 100.0,
+    "per_class_accuracy": {
+      "Oral_Cancer": 100.0,
+      "lichen_planus": 100.0
+    },
+    "confusion_matrix": [
+      [
+        184,
+        0
+      ],
+      [
+        0,
+        370
+      ]
+    ],
+    "class_names": [
+      "PreCancer",
+      "Cancer"
+    ],
+    "sample_predictions": [
+      {
+        "path": "datasets\\Oral_Cancer\\385_aug1.jpg",
+        "original_class": "Oral_Cancer",
+        "true_label": "Cancer",
+        "predicted_label": "Cancer",
+        "confidence": 0.9993255138397217,
+        "all_probs": {
+          "PreCancer": 0.0006745115388184786,
+          "Cancer": 0.9993255138397217
+        }
+      },
+      {
+        "path": "datasets\\lichen_planus\\t-Lichen-Sclerosus-Skin-116_aug2.jpg",
+        "original_class": "lichen_planus",
+        "true_label": "PreCancer",
+        "predicted_label": "PreCancer",
+        "confidence": 0.9999737739562988,
+        "all_probs": {
+          "PreCancer": 0.9999737739562988,
+          "Cancer": 2.621933163027279e-05
+        }
+      },
+      {
+        "path": "datasets\\lichen_planus\\t-Lichen-Sclerosus-Skin-35_aug1.jpg",
+        "original_class": "lichen_planus",
+        "true_label": "PreCancer",
+        "predicted_label": "PreCancer",
+        "confidence": 0.999924898147583,
+        "all_probs": {
+          "PreCancer": 0.999924898147583,
+          "Cancer": 7.507804548367858e-05
+        }
+      },
+      {
+        "path": "datasets\\Oral_Cancer\\202_aug0.jpg",
+        "original_class": "Oral_Cancer",
+        "true_label": "Cancer",
+        "predicted_label": "Cancer",
+        "confidence": 0.9911673665046692,
+        "all_probs": {
+          "PreCancer": 0.008832682855427265,
+          "Cancer": 0.9911673665046692
+        }
+      },
+      {
+        "path": "datasets\\Oral_Cancer\\20.jpg",
+        "original_class": "Oral_Cancer",
+        "true_label": "Cancer",
+        "predicted_label": "Cancer",
+        "confidence": 0.9474777579307556,
+        "all_probs": {
+          "PreCancer": 0.052522219717502594,
+          "Cancer": 0.9474777579307556
+        }
+      },
+      {
+        "path": "datasets\\lichen_planus\\t-lichen-planus-142_aug0.jpg",
+        "original_class": "lichen_planus",
+        "true_label": "PreCancer",
+        "predicted_label": "PreCancer",
+        "confidence": 0.9999984502792358,
+        "all_probs": {
+          "PreCancer": 0.9999984502792358,
+          "Cancer": 1.5775494830450043e-06
+        }
+      },
+      {
+        "path": "datasets\\Oral_Cancer\\210_aug0.jpg",
+        "original_class": "Oral_Cancer",
+        "true_label": "Cancer",
+        "predicted_label": "Cancer",
+        "confidence": 0.9975040555000305,
+        "all_probs": {
+          "PreCancer": 0.002495931228622794,
+          "Cancer": 0.9975040555000305
+        }
+      },
+      {
+        "path": "datasets\\Oral_Cancer\\067_aug0.jpg",
+        "original_class": "Oral_Cancer",
+        "true_label": "Cancer",
+        "predicted_label": "Cancer",
+        "confidence": 0.9804673194885254,
+        "all_probs": {
+          "PreCancer": 0.01953265815973282,
+          "Cancer": 0.9804673194885254
+        }
+      },
+      {
+        "path": "datasets\\Oral_Cancer\\lip-cancer-br-image-credit-national-cancer-institute-2003-br_aug0.jpg",
+        "original_class": "Oral_Cancer",
+        "true_label": "Cancer",
+        "predicted_label": "Cancer",
+        "confidence": 0.967093288898468,
+        "all_probs": {
+          "PreCancer": 0.032906632870435715,
+          "Cancer": 0.967093288898468
+        }
+      },
+      {
+        "path": "datasets\\Oral_Cancer\\photo_2025-01-26_17-26-54_aug2.jpg",
+        "original_class": "Oral_Cancer",
+        "true_label": "Cancer",
+        "predicted_label": "Cancer",
+        "confidence": 0.9967190623283386,
+        "all_probs": {
+          "PreCancer": 0.0032808706164360046,
+          "Cancer": 0.9967190623283386
+        }
+      }
+    ]
+  },
+  "benign_malignant": {
+    "task": "benign_malignant",
+    "overall_accuracy": 99.32735426008968,
+    "per_class_accuracy": {
+      "Oral_Cancer": 99.46236559139786,
+      "benign_lesions": 98.64864864864865
+    },
+    "confusion_matrix": [
+      [
+        73,
+        1
+      ],
+      [
+        2,
+        370
+      ]
+    ],
+    "class_names": [
+      "Benign",
+      "Malignant"
+    ],
+    "sample_predictions": [
+      {
+        "path": "datasets\\Oral_Cancer\\263_aug2.jpg",
+        "original_class": "Oral_Cancer",
+        "true_label": "Malignant",
+        "predicted_label": "Malignant",
+        "confidence": 0.9743874669075012,
+        "all_probs": {
+          "Benign": 0.02561252750456333,
+          "Malignant": 0.9743874669075012
+        }
+      },
+      {
+        "path": "datasets\\Oral_Cancer\\116.jpeg",
+        "original_class": "Oral_Cancer",
+        "true_label": "Malignant",
+        "predicted_label": "Malignant",
+        "confidence": 0.9957141280174255,
+        "all_probs": {
+          "Benign": 0.004285834264010191,
+          "Malignant": 0.9957141280174255
+        }
+      },
+      {
+        "path": "datasets\\Oral_Cancer\\S11.png",
+        "original_class": "Oral_Cancer",
+        "true_label": "Malignant",
+        "predicted_label": "Malignant",
+        "confidence": 0.9976436495780945,
+        "all_probs": {
+          "Benign": 0.002356335986405611,
+          "Malignant": 0.9976436495780945
+        }
+      },
+      {
+        "path": "datasets\\Oral_Cancer\\491.jpeg",
+        "original_class": "Oral_Cancer",
+        "true_label": "Malignant",
+        "predicted_label": "Malignant",
+        "confidence": 0.9915939569473267,
+        "all_probs": {
+          "Benign": 0.008406078442931175,
+          "Malignant": 0.9915939569473267
+        }
+      },
+      {
+        "path": "datasets\\Oral_Cancer\\379_aug0.jpg",
+        "original_class": "Oral_Cancer",
+        "true_label": "Malignant",
+        "predicted_label": "Malignant",
+        "confidence": 0.9612107276916504,
+        "all_probs": {
+          "Benign": 0.03878926485776901,
+          "Malignant": 0.9612107276916504
+        }
+      },
+      {
+        "path": "datasets\\Oral_Cancer\\075_aug2.jpg",
+        "original_class": "Oral_Cancer",
+        "true_label": "Malignant",
+        "predicted_label": "Malignant",
+        "confidence": 0.9864603281021118,
+        "all_probs": {
+          "Benign": 0.013539725914597511,
+          "Malignant": 0.9864603281021118
+        }
+      },
+      {
+        "path": "datasets\\Oral_Cancer\\075_aug1.jpg",
+        "original_class": "Oral_Cancer",
+        "true_label": "Malignant",
+        "predicted_label": "Malignant",
+        "confidence": 0.9802624583244324,
+        "all_probs": {
+          "Benign": 0.01973753422498703,
+          "Malignant": 0.9802624583244324
+        }
+      },
+      {
+        "path": "datasets\\Oral_Cancer\\388_aug2.jpg",
+        "original_class": "Oral_Cancer",
+        "true_label": "Malignant",
+        "predicted_label": "Malignant",
+        "confidence": 0.9878479242324829,
+        "all_probs": {
+          "Benign": 0.012152126990258694,
+          "Malignant": 0.9878479242324829
+        }
+      },
+      {
+        "path": "datasets\\Oral_Cancer\\093_aug2.jpg",
+        "original_class": "Oral_Cancer",
+        "true_label": "Malignant",
+        "predicted_label": "Malignant",
+        "confidence": 0.99826580286026,
+        "all_probs": {
+          "Benign": 0.0017342641949653625,
+          "Malignant": 0.99826580286026
+        }
+      },
+      {
+        "path": "datasets\\Oral_Cancer\\115_aug2.jpg",
+        "original_class": "Oral_Cancer",
+        "true_label": "Malignant",
+        "predicted_label": "Malignant",
+        "confidence": 0.9372223019599915,
+        "all_probs": {
+          "Benign": 0.06277772039175034,
+          "Malignant": 0.9372223019599915
+        }
+      }
+    ]
+  }
+}

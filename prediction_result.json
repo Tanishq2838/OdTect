@@ -1,0 +1,10 @@
+{
+    "confidence": 0.9965223073959351,
+    "prediction": "Oral_Cancer",
+    "probabilities": {
+        "Normal": 0.0003489710215944797,
+        "Oral_Cancer": 0.9965223073959351,
+        "benign_lesions": 0.002286498202010989,
+        "lichen_planus": 0.0008422337705269456
+    }
+}

@@ -1,0 +1,3 @@
+﻿Checkpoint is a dictionary.
+CLASS_NAMES in checkpoint: ['Normal', 'Oral_Cancer', 'benign_lesions', 'lichen_planus']
+Model state dict found.
