@@ -4,7 +4,6 @@ import { getFirestore } from "firebase/firestore";
 import { getAnalytics } from "firebase/analytics";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyATVPhMlROTYfk16D-9RvyKPBr2purls2I",
     authDomain: "o-dtect.firebaseapp.com",
     projectId: "o-dtect",
     storageBucket: "o-dtect.firebasestorage.app",
