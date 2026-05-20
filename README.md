@@ -1,83 +1,145 @@
-# Welcome to your Lovable project
+# OdTect — Explainable Oral Cancer Detection System
 
-## Project info
+An AI-powered multiclass oral lesion classification system built using **EfficientNet-B2** and **Grad-CAM** to enable interpretable medical image analysis.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+OdTect focuses on detecting and classifying oral lesions from medical images while providing visual explanations for model predictions through Explainable AI techniques.
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## 🚀 Features
 
-**Use Lovable**
+* Multiclass oral lesion classification
+* Deep learning-based image analysis
+* Explainable AI using Grad-CAM visualization
+* Medical image preprocessing & augmentation
+* Dataset balancing pipeline
+* Performance evaluation using precision, recall, and F1-score
+* EfficientNet-B2 based architecture
+* Research-oriented workflow for medical AI applications
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🧠 Tech Stack
 
-**Use your preferred IDE**
+### Languages & Frameworks
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+* Python
+* TensorFlow / Keras
+* OpenCV
+* NumPy
+* Matplotlib
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### Deep Learning
 
-Follow these steps:
+* EfficientNet-B2
+* Grad-CAM
+* CNN-based image classification
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+### Tools
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+* Jupyter Notebook
+* Git & GitHub
 
-# Step 3: Install the necessary dependencies.
-npm i
+---
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+## 📂 Project Workflow
+
+```text
+Medical Image Input
+        ↓
+Image Preprocessing
+        ↓
+Data Augmentation & Balancing
+        ↓
+EfficientNet-B2 Model Training
+        ↓
+Prediction & Classification
+        ↓
+Grad-CAM Visualization
+        ↓
+Performance Evaluation
 ```
 
-**Edit a file directly in GitHub**
+---
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 🔍 Explainable AI with Grad-CAM
 
-**Use GitHub Codespaces**
+OdTect integrates **Grad-CAM (Gradient-weighted Class Activation Mapping)** to improve model interpretability.
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+This helps visualize:
 
-## What technologies are used for this project?
+* regions influencing predictions,
+* lesion-focused attention areas,
+* and model decision behavior.
 
-This project is built with:
+The explainability component enhances transparency in medical AI systems and supports research-oriented analysis.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+---
 
-## How can I deploy this project?
+## 📊 Model Evaluation
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+The model performance is evaluated using:
 
-## Can I connect a custom domain to my Lovable project?
+* Accuracy
+* Precision
+* Recall
+* F1-Score
+* Confusion Matrix Analysis
 
-Yes, you can!
+This ensures balanced evaluation across multiple oral lesion classes.
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+---
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+## 🧪 Key Learning Outcomes
 
-## Run the ML backend locally
+Through this project, I explored:
 
-Your trained model and Flask API live in `mlproject`. To serve predictions for the web app:
+* Deep learning workflows for medical imaging
+* Transfer learning using EfficientNet
+* Explainable AI concepts
+* Medical dataset preprocessing
+* Image augmentation strategies
+* AI system evaluation techniques
 
-1. `cd mlproject && python -m venv .venv && .\\.venv\\Scripts\\activate`
-2. `pip install -r requirements.txt`
-3. `python server.py` (starts on `http://localhost:5000/predict`)
-4. In the project root create `.env.local` with `VITE_API_URL=http://localhost:5000`
-5. Back in the root, run `npm install` then `npm run dev` to use the UI against the live model.
+---
+
+
+## ⚡ Future Improvements
+
+* Deploy as a web application
+* Add real-time inference support
+* Improve dataset diversity
+* Experiment with transformer-based architectures
+* Integrate cloud deployment for scalability
+
+---
+
+## 📌 Repository Structure
+
+```text
+OdTect/
+│── dataset/
+│── notebooks/
+│── models/
+│── outputs/
+│── preprocessing/
+│── training/
+│── evaluation/
+│── README.md
+```
+
+---
+
+## 🤝 Contribution
+
+Contributions, suggestions, and discussions are welcome.
+
+---
+
+## 📫 Connect With Me
+
+* LinkedIn:
+  https://linkedin.com/in/tanishqkundrapu
+
+* GitHub:
+  https://github.com/Tanishq2838
